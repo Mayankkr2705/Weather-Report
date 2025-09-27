@@ -26,16 +26,16 @@ function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex flex-1 justify-center">
-          <nav className="flex items-center space-x-6">
+        <div className="hidden md:flex flex-1 justify-end">
+          <nav className="flex items-center space-x-8">
             {navItems.map((item) => (
               <button
                 key={item.path}
-                className="flex items-center text-lg text-gray-900 hover:text-blue-700 transition focus:outline-none"
+                className="flex items-center text-xl text-gray-900 hover:text-blue-700 transition focus:outline-none"
                 onClick={() => navigate(item.path)}
               >
-                <span className="mr-1">{item.icon}</span>
-                <span className="hidden lg:inline">{item.text}</span>
+                <span className="mr-2 text-2xl">{item.icon}</span>
+                <span className="hidden lg:inline font-medium">{item.text}</span>
               </button>
             ))}
           </nav>
@@ -50,11 +50,6 @@ function Header() {
         </button>
 
         {/* Right side buttons */}
-        <div className="hidden md:flex items-center space-x-4">
-          <button className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
-            Login
-          </button>
-        </div>
       </div>
 
       {/* Mobile Navigation */}
@@ -74,9 +69,6 @@ function Header() {
                 <span>{item.text}</span>
               </button>
             ))}
-            <button className="mx-6 mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
-              Login
-            </button>
           </nav>
         </div>
       )}
