@@ -1,8 +1,8 @@
-<img width="1012" height="633" alt="image" src="https://github.com/user-attachments/assets/e72366a1-d555-408a-be98-52532047e9ed" /># 🌤️ TRIVERA - Environmental Monitoring Platform
+# 🌤️ TRIVERA - Environmental Monitoring Platform
 
 A comprehensive environmental monitoring platform that provides real-time weather, air quality, water quality, and traffic information.
 
-🔗 **Live Demo**: [weather-report-taupe.vercel.app](https://trivera.netlify.app/)
+🔗 **Live Demo**: [trivera.netlify.app](https://trivera.netlify.app/)
 
 ---
 
